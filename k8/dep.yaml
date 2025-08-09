@@ -19,7 +19,7 @@ spec:
           image: arvindh01/todolist:latest
           env:
             - name: MYSQL_HOST
-              value: "10.107.70.110"
+              value: mysql
             - name: MYSQL_PASSWORD
               value: "admin"
             - name: MYSQL_USER
