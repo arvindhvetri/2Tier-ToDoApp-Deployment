@@ -1,6 +1,6 @@
 # 🌊 FlowList — Your Elegant To-Do Companion
 
-FlowList is a minimalist, beautifully-crafted to-do list web application built with **Flask**, **MySQL**, **HTML**, and **CSS**. Designed with clean aesthetics and seamless user experience in mind, FlowList helps you stay organized, focused, and productive.
+FlowList is minimalist to-do app built with Flask, MySQL, HTML, and CSS — powered by Git, Jenkins, Docker, and Kubernetes for CI/CD and scalable deployment.
 
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -19,6 +19,26 @@ FlowList is a minimalist, beautifully-crafted to-do list web application built w
 
 ---
 
+## 🛠️ Tech Stack
+
+| Technology | Description                                |
+|------------|--------------------------------------------|
+| Flask      | Lightweight Python web framework           |
+| MySQL      | Relational database management             |
+| HTML/CSS   | Structure and styling                       |
+| Jinja2     | Templating engine for Flask                 |
+| Git        | Version control for source code             |
+| Jenkins    | Continuous integration and automation       |
+| Docker     | Containerization for application packaging  |
+| Kubernetes | Orchestration for scalable deployment       |
+
+---
+## 🖥 Workflow
+
+<img width="1920" height="1080" alt="FlowList - DockerCompose Workflow" src="https://github.com/user-attachments/assets/3b9ea9e8-564b-4497-ad50-9be3c317f345" />
+
+---
+
 ## 🖼️ Preview
 
 ![Preview](https://github.com/user-attachments/assets/86f1587f-b62f-45f3-91dc-d4b21ada8b0c)
@@ -28,13 +48,3 @@ FlowList is a minimalist, beautifully-crafted to-do list web application built w
 
 ---
 
-## 🛠️ Tech Stack
-
-| Technology | Description                    |
-|------------|--------------------------------|
-| Flask      | Lightweight Python web framework |
-| MySQL      | Relational database management |
-| HTML/CSS   | Structure and styling          |
-| Jinja2     | Templating engine for Flask    |
-
----
