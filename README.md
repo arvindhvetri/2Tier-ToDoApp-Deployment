@@ -48,3 +48,9 @@ FlowList is minimalist to-do app built with Flask, MySQL, HTML, and CSS — powe
 
 ---
 
+### 📬 Contact
+
+Created with ❤️ by Arvindh Kumar
+
+- 📧 Email: arvindhvetri@gmail.com.com
+
