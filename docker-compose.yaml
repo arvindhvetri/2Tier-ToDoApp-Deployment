@@ -7,8 +7,6 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: admin
       MYSQL_DATABASE: tododb
-      #MYSQL_USER: root
-      #MYSQL_PASSWORD: admin
     volumes:
       - ./mysql-data:/var/lib/mysql
       - ./table.sql:/docker-entrypoint-initdb.d/table.sql
@@ -38,7 +36,7 @@ services:
       - twotier
     restart: always
     healthcheck:
-      test: ["CMD-SHELL", "curl -f http://localhost:5000/health || exit 1"]
+      test: ["CMD-SHELL", "curl -f http://localhost:8000/health || exit 1"]
       interval: 10s
       timeout: 5s
       retries: 5
